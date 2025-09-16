@@ -13,6 +13,6 @@ REDIS_IMAGE_TAG=$(yq e '.services.redis.image' docker-compose.yml)
 sed -i "s|^Image=.*$|Image=${REDIS_IMAGE_TAG}|" immich-redis.container
 
 
-sed -i "s/v[0-9]\.[0-9]\{3\}\.[0-9]/${NEW_VERSION}/" *.container *.image
+sed -i "s/v[0-9]\.[0-9]\{3\}\.[0-9]/${NEW_VERSION}/" *.container *.image alternative/*.container
 
 rm docker-compose.yml
