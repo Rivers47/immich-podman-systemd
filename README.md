@@ -1,6 +1,6 @@
 # immich-app podman + quadlet deployment
 
-⚠️ **Curently supported immich version: [v2.1.0](https://github.com/immich-app/immich/releases/tag/v2.1.0)** ⚠️
+⚠️ **Curently supported immich version: [v2.2.3](https://github.com/immich-app/immich/releases/tag/v2.2.3)** ⚠️
 
 
 This is a set of unit files to deploy immich through the podman-quadlet systemd generator
